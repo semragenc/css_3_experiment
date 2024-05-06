@@ -1,0 +1,118 @@
+.link {
+    color: teal;
+}
+
+.link:hover {
+    color: tomato;
+}
+.social-links .link {
+    color: teal;
+}
+
+.social-links .link:hover {
+    color: tomato;
+}
+.social-links .link:focus {
+    color: orange;
+}
+/*pseudo-class:active esas olarak bağlantılar ve düğmeler için kullanılır.*/
+.social-links .link {
+    color: teal;
+}
+
+.social-links .link:hover {
+    color: orange;
+}
+
+.social-links .link:active {
+    color: red;
+}
+h3{
+    color: blue;
+    background-color: orange;
+}
+/*text-align: left | right | center | justify*/
+h3{
+    color: teal;
+    text-align: right;
+}
+/* Özgüllük - 0 0 0 1 */
+/*text-transform: none | uppercase | lowercase | capitalize*/
+p {
+    color: green;
+    text-decoration: line-through;
+    text-transform: uppercase;
+}
+
+/* ✅ Özgüllük - 0 0 0 2 */
+section>p {
+    color: orange;
+}
+/* Özgüllük - 0 0 1 0 */
+.post-title {
+    color: green;
+}
+/*DENEME*/
+.post>h2 {
+    color: red;
+}
+.post>.post-title {
+    color: orange;
+}
+/* Özgüllük - 0 0 0 1 */
+a {
+    color: green;
+}
+.post-link {
+    color: orange;
+}
+a.post-link {
+    color: blue;
+}
+.post>.post-link {
+    color: red;
+}
+.post>a.post-link {
+    color: brown;
+}
+/*line-height: normal | sayı | uzunluk | yüzde | initial | inherit*/
+h4{
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+    line-height: 1.5;
+}
+/*Normal: 400 bold: 700 */
+.post-title {
+    font-family: 'Tahoma';
+    font-size: 50px;
+    font-weight: bold;
+}
+/*font-style: normal | italic | oblique | initial | inherit*/
+/* latin */
+@font-face {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Tangerine Bold'), local('Tangerine-Bold'),
+        url(<https://fonts.gstatic.com/s/tangerine/v12/Iurd6Y5j_oScZZow4VO5srNZi5FNym499g.woff2>) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+        U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+        U+FEFF, U+FFFD;
+}
+/*letter-spacing özelliği karakterler arasındaki aralığı tanımlar.*/
+h2{
+    letter-spacing: 30px;
+}
+/*text-indent özelliği,
+örneğin bir paragraf gibi bir metin bloğunun ilk satırının girintisini ayarlar. TAB gibi*/
+h1{
+    text-indent: 73%;
+}
+/*text-shadow özelliği metin gölgesini kontrol eder ve parametrelerini ayarlar: renk,
+ofset ve bulanıklık yarıçapı.*/
+/*text-shadow: <x ofset>,<y ofset>,<bulanıklık yarıçapı>,<renk>*/
+h1{
+    color: orangered;
+    text-shadow: 2px 2px 4px black
+}
+
